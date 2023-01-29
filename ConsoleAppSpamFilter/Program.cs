@@ -41,6 +41,13 @@ string ClearFromSpam(string text, string[] stopWords)
     return text;
 }
 
+void SaveText (string text, string fileName)
+{
+    StreamWriter writer = new StreamWriter(fileName);
+    writer.Write(text);
+    writer.Close();
+}
+
 string[] stopWords = null;
 string text;
 
@@ -49,4 +56,6 @@ text = LoadText("text.txt");
 
 string cleanText = ClearFromSpam(text,stopWords);
 
-Console.WriteLine(cleanText);
+SaveText(cleanText, "CleanText.txt");
+
+Console.WriteLine("Файл очищен и сохранен");

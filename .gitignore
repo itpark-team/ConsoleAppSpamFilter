@@ -7,3 +7,9 @@
 /.vs/ConsoleAppSpamFilter/DesignTimeBuild
 /.vs/rrrrr/v17
 /.vs/ConsoleAppSpamFilter11/v17
+/.vs/ConsoleAppSpamFilter/v17
+/ConsoleAppSpamFilter/bin/Debug/net6.0/ConsoleAppSpamFilter.dll
+/ConsoleAppSpamFilter/bin/Debug/net6.0/ConsoleAppSpamFilter.exe
+/ConsoleAppSpamFilter/bin/Debug/net6.0/ConsoleAppSpamFilter.pdb
+/ConsoleAppSpamFilter/bin/Debug/net6.0/ConsoleAppSpamFilter.deps.json
+/ConsoleAppSpamFilter/bin/Debug/net6.0/ConsoleAppSpamFilter.runtimeconfig.json
