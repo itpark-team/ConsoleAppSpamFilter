@@ -7,4 +7,9 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <Content Include="bin\Debug\net6.0\stopList.txt" />
+      <Content Include="bin\Debug\net6.0\text.txt" />
+    </ItemGroup>
+
 </Project>
