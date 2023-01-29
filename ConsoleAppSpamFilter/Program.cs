@@ -31,8 +31,22 @@ string LoadText(string fileName)
     return text;
 }
 
+string ClearFromSpam(string text, string[] stopWords)
+{
+    for (int i = 0; i < stopWords.Length; i++)
+    {
+        text = text.Replace(stopWords[i], new string('*',stopWords[i].Length));
+    }
+
+    return text;
+}
+
 string[] stopWords = null;
 string text;
 
 stopWords = LoadStopWords("stopList.txt");
 text = LoadText("text.txt");
+
+string cleanText = ClearFromSpam(text,stopWords);
+
+Console.WriteLine(cleanText);
