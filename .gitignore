@@ -1,0 +1,8 @@
+﻿################################################################################
+# Данный GITIGNORE-файл был автоматически создан Microsoft(R) Visual Studio.
+################################################################################
+
+/ConsoleAppSpamFilter/obj
+/.vs/ConsoleAppSpamFilter/FileContentIndex
+/.vs/ConsoleAppSpamFilter/DesignTimeBuild
+/.vs/rrrrr/v17
